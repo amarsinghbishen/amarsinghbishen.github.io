@@ -169,43 +169,90 @@
       </div>
     </section>
 
-    <section id="projects" class="section alt">
-      <div class="section-head"><span>04</span><h2>Key projects</h2></div>
+    <section id="projects" class="section projects-section">
+      <div class="section-head"><span>04</span><h2>Key Projects</h2></div>
       <div class="project-grid">
         <article class="project-card">
-          <div class="project-top"><span class="project-number">01</span><span class="project-icon">↗</span></div>
-          <h3>Customer Portal Legacy Modernization</h3>
-          <p>Leading the modernization of a legacy customer portal by introducing a modern React frontend and a .NET Core backend/API architecture while retaining the existing Microsoft SQL Server database. The initiative focuses on improving maintainability, scalability, and the overall customer experience.</p>
-          <div class="tags"><span>React</span><span>.NET Core</span><span>Web APIs</span><span>SQL Server</span><span>Modernization</span></div>
+          <div class="project-heading">
+            <h3>Customer Portal — Legacy Modernization</h3>
+            <span class="project-icon" aria-hidden="true">⚙️</span>
+          </div>
+          <p>Leading the modernization of a legacy customer portal by introducing a modern React frontend and a .NET Core backend/API architecture while retaining the existing Microsoft SQL Server database.</p>
+          <ul>
+            <li>Modern React-based user experience over an existing enterprise platform</li>
+            <li>.NET Core backend and RESTful API architecture for scalable services</li>
+            <li>Retained the existing MS SQL Server database to support a controlled modernization path</li>
+          </ul>
+          <div class="tags"><span>React</span><span>.NET Core</span><span>Web API</span><span>SQL Server</span><span>Modernization</span></div>
         </article>
+
         <article class="project-card">
-          <div class="project-top"><span class="project-number">02</span><span class="project-icon">↗</span></div>
-          <h3>Batch Settlement Revamp</h3>
-          <p>Re-engineered the batch settlement flow by removing the monolithic application dependency and introducing a scheduler to generate and process settlement files during non-peak hours in the Core Banking system. This optimization reduced transaction batch processing time by <strong>30%</strong>.</p>
+          <div class="project-heading">
+            <h3>Batch Settlement Revamp</h3>
+            <span class="project-icon" aria-hidden="true">⏱️</span>
+          </div>
+          <p>Re-engineered the batch settlement flow by removing the monolithic application from the processing path and introducing scheduled file generation and processing during non-peak hours in the Core Banking system.</p>
+          <ul>
+            <li>Eliminated the monolithic dependency from the settlement flow</li>
+            <li>Introduced scheduler-driven file generation and processing</li>
+            <li><strong>Reduced transaction batch processing time to Core Banking by 30%</strong></li>
+          </ul>
           <div class="tags"><span>.NET</span><span>Scheduler</span><span>Batch Processing</span><span>Core Banking</span><span>Performance</span></div>
         </article>
+
         <article class="project-card">
-          <div class="project-top"><span class="project-number">03</span><span class="project-icon">↗</span></div>
-          <h3>Bulk Card Boarding Process Revamp</h3>
-          <p>Enhanced the web portal and optimized SQL procedures supporting bulk card boarding. The improvements streamlined high-volume card onboarding workflows and increased card onboarding speed by <strong>25%</strong>.</p>
-          <div class="tags"><span>ASP.NET Core</span><span>SQL Server</span><span>Stored Procedures</span><span>Card Issuing</span></div>
+          <div class="project-heading">
+            <h3>Bulk Card Boarding Process Revamp</h3>
+            <span class="project-icon" aria-hidden="true">💳</span>
+          </div>
+          <p>Optimized the bulk card boarding process by enhancing the web portal and tuning SQL procedures used for high-volume card onboarding.</p>
+          <ul>
+            <li>Improved web-portal processing for bulk card boarding</li>
+            <li>Optimized SQL procedures supporting high-volume onboarding workloads</li>
+            <li><strong>Improved card onboarding speed by 25%</strong></li>
+          </ul>
+          <div class="tags"><span>ASP.NET Core</span><span>SQL Server</span><span>Stored Procedures</span><span>Card Issuing</span><span>Performance</span></div>
         </article>
+
         <article class="project-card">
-          <div class="project-top"><span class="project-number">04</span><span class="project-icon">↗</span></div>
-          <h3>WPS Salary Processing Revamp</h3>
-          <p>Redesigned the Wage Protection System salary-processing flow by removing the monolithic application dependency and introducing microservices for parallel file processing, together with bulk insertion into salary tables. The changes improved WPS salary processing performance by <strong>300%</strong>.</p>
+          <div class="project-heading">
+            <h3>WPS Salary Processing Revamp</h3>
+            <span class="project-icon" aria-hidden="true">⚡</span>
+          </div>
+          <p>Redesigned the Wage Protection System salary-processing flow by removing the monolithic application dependency and introducing microservices for parallel file processing and bulk salary-table insertion.</p>
+          <ul>
+            <li>Replaced the monolithic processing dependency with microservices</li>
+            <li>Enabled parallel file processing and bulk database insertion</li>
+            <li><strong>Improved WPS salary processing performance by 300%</strong></li>
+          </ul>
           <div class="tags"><span>Microservices</span><span>.NET Core</span><span>Parallel Processing</span><span>Bulk Insert</span><span>WPS</span></div>
         </article>
+
         <article class="project-card">
-          <div class="project-top"><span class="project-number">05</span><span class="project-icon">↗</span></div>
-          <h3>Magnati Carve-out & Cloud Migration</h3>
-          <p>Contributed to the Magnati carve-out initiative from First Abu Dhabi Bank (FAB), supporting the migration of the prepaid cards platform from FAB’s on-premises environment to Magnati’s Microsoft Azure cloud environment. The project involved platform separation, system integration, and cloud-environment transition.</p>
-          <div class="tags"><span>Azure</span><span>Prepaid Cards</span><span>Cloud Migration</span><span>System Integration</span></div>
+          <div class="project-heading">
+            <h3>Magnati Carve-out — Prepaid Cards Cloud Migration</h3>
+            <span class="project-icon" aria-hidden="true">☁️</span>
+          </div>
+          <p>Contributed to the Magnati carve-out from First Abu Dhabi Bank (FAB), supporting the transition of the prepaid cards platform from FAB's on-premises environment to Magnati's Microsoft Azure environment.</p>
+          <ul>
+            <li>Supported separation of the prepaid cards platform from the FAB environment</li>
+            <li>Contributed to migration of the platform into Magnati's Azure cloud environment</li>
+            <li>Supported system integration and transition activities across the new operating environment</li>
+          </ul>
+          <div class="tags"><span>Azure</span><span>Prepaid Cards</span><span>Cloud Migration</span><span>System Integration</span><span>Carve-out</span></div>
         </article>
+
         <article class="project-card">
-          <div class="project-top"><span class="project-number">06</span><span class="project-icon">↗</span></div>
-          <h3>FAB Banking Integration & Merger</h3>
-          <p>Contributed to the 2018 banking integration initiative involving the merger of First Gulf Bank (FGB) and National Bank of Abu Dhabi (NBAD) to form First Abu Dhabi Bank (FAB). Supported integration activities required to align systems and processes across the consolidating banking environments.</p>
+          <div class="project-heading">
+            <h3>FAB Banking Integration & Merger</h3>
+            <span class="project-icon" aria-hidden="true">🏦</span>
+          </div>
+          <p>Contributed to the 2018 banking integration initiative associated with the merger of First Gulf Bank (FGB) and National Bank of Abu Dhabi (NBAD) to form First Abu Dhabi Bank (FAB).</p>
+          <ul>
+            <li>Supported integration activities across the consolidating banking environments</li>
+            <li>Contributed to system and process alignment required for the merger</li>
+            <li>Worked within a large-scale enterprise banking integration landscape</li>
+          </ul>
           <div class="tags"><span>Banking Integration</span><span>System Consolidation</span><span>Enterprise APIs</span><span>BFSI</span></div>
         </article>
       </div>
